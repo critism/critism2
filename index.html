@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>yourname — developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="home" data-page="home">
+
+<div class="glow"></div>
+<div class="glow blue"></div>
+<div class="stars" id="stars"></div>
+
+<nav id="nav"></nav>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <h1 class="wordmark" id="wordmark"></h1>
+    <p class="tagline" id="tagline"></p>
+
+    <aside class="rail">
+      <div class="clock">
+        <div class="time"><span id="hm"></span><span class="sec" id="sec"></span></div>
+        <div class="loc" id="loc"></div>
+      </div>
+      <div class="status-line" id="statusLine"></div>
+      <div class="mood" id="mood"></div>
+    </aside>
+
+    <div class="scroll-hint">scroll<span>↓</span></div>
+  </section>
+
+  <!-- ============ INTRO ============ -->
+  <section class="home-section">
+    <div class="eyebrow">/intro</div>
+    <p class="big-line">i design and build things for the web —
+      <em>dark, fast, and a little playful.</em>
+      currently a student, permanently curious.</p>
+    <div class="stats">
+      <div><b data-count="14">0</b><span>years old</span></div>
+      <div><b data-count="3">0</b><span>years coding</span></div>
+      <div><b data-count="23">0</b><span>side projects</span></div>
+      <div><b>∞</b><span>open tabs</span></div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED ============ -->
+  <section class="home-section">
+    <div class="eyebrow">/featured</div>
+    <h2 class="h2">selected work<span class="end-dot">.</span></h2>
+    <div class="grid">
+      <a class="card" href="projects.html">
+        <div class="head"><h3>this website</h3><span class="arrow">↗</span></div>
+        <p>my personal corner of the internet — no framework, just handcrafted code.</p>
+        <div class="tags"><span>html</span><span>css</span><span>js</span></div>
+      </a>
+      <a class="card" href="projects.html">
+        <div class="head"><h3>project two</h3><span class="arrow">↗</span></div>
+        <p>a small tool that solves a problem i had. probably over-engineered.</p>
+        <div class="tags"><span>typescript</span><span>react</span></div>
+      </a>
+    </div>
+    <a class="more-link" href="projects.html">all projects →</a>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="home-section cta">
+    <div class="eyebrow">/contact</div>
+    <h2 class="h2 cta-line">let's build<br>something<span class="end-dot">.</span></h2>
+    <a class="cta-btn" href="mailto:hi@example.com">say hi → hi@example.com</a>
+  </section>
+</main>
+
+<script src="site.js"></script>
+</body>
+</html>
