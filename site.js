@@ -5,7 +5,7 @@
 const CONFIG = {
   name: "valentin",           // your handle — the big wordmark on home
   dotLetter: "auto",          // "auto" = blue dot on last "i" (or last letter). Or an index, e.g. 4
-  tagline: "fourteen-year-old developer from germany",
+  tagline: "fifteen-year-old developer from germany",
   location: "in germany",
   timezone: "Europe/Berlin",  // IANA timezone for the live clock
   status: "free",             // nav pill: "busy", "online", "afk"...
